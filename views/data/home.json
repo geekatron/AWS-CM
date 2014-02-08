@@ -1,0 +1,45 @@
+{
+    "libs" : [
+    ],
+    "style" : [
+        {
+            "href" : "",
+            "rel" : "stylesheet",
+            "media" : "screen"
+        }
+    ],
+    "menu" :
+        [
+            {
+                "name" : "Home",
+                "url" : "/",
+                "active" : "active",
+                "icon" : "glyphicon glyphicon-home"
+            },
+            {
+                "name" : "Statistics",
+                "url" : "/statistics/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-tower",
+                "style" : ""
+            },
+            {
+                "name" : "GitHub Project",
+                "url" : "https://github.com/geekatron/LDRLY-THT",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-flash",
+                "style" : ""
+            },
+            {
+                "name" : "",
+                "url" : "/config/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-wrench"
+            }
+        ],
+    "title" : "AWS CMS",
+    "acronym" : "CMS",
+    "description" : [
+        "Here you will be able to view media stored in AWS S3 Buckets."
+    ]
+}

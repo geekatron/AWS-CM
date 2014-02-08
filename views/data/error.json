@@ -1,0 +1,92 @@
+{
+    "project" : {
+        "name" : "AWS CMS",
+        "acronym" : "CMS",
+        "slogan" : "AWS S3 CMS...",
+        "icon" : "/img/logo-small.png",
+        "company" : "Geekatron"
+    },
+    "libs" : [
+        {
+            "src" : "http://code.jquery.com/jquery.js"
+        },
+        {
+            "src" : "/js/lib/bootstrap/v3.0.3/bootstrap.min.js"
+        },
+        {
+            "src" : "/js/lib/mustache/mustache.js"
+        },
+        {
+            "src" : "/js/lib/underscore/underscore-min.js"
+        },
+        {
+            "src" : "http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"
+        }
+    ],
+    "style" : [
+        {
+            "href" : "/style/bootstrap.min.css",
+            "rel" : "stylesheet",
+            "media" : "screen"
+        },
+        {
+            "href" : "/style/default.css",
+            "rel" : "stylesheet"
+        }
+    ],
+    "menu" :
+        [
+            {
+                "name" : "Home",
+                "url" : "/",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-home"
+            },
+            {
+                "name" : "Statistics",
+                "url" : "/statistics/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-tower",
+                "style" : ""
+            },
+            {
+                "name" : "Users",
+                "url" : "/users/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-user",
+                "style" : ""
+            },
+            {
+                "name" : "",
+                "url" : "/config/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-wrench"
+            }
+        ],
+    "error" : {
+        "404" : {
+            "title" : "Web page (404)",
+            "message" : [
+                "A 404 exception has occurred while perusing through the LDRLY Leaderboard. ",
+                "You have attempted to access a non-existent resource. It may be possible to continue normally."
+            ],
+            "list" : [
+                "Press any key to attempt to continue.",
+                "Press CTRL + R to refresh the web page."
+            ],
+            "final" : "Press the any key to continue"
+        },
+        "500" : {
+            "title" : "Web page (500)",
+            "message" : [
+                "A 500 exception has occurred while perusing through the LDRLY Leaderboard. ",
+                "An internal error has occurred during your request. Our services may be misbehaving!"
+            ],
+            "list" : [
+                "Press any key to attempt to continue.",
+                "Try contacting a system administrator."
+            ],
+            "final" : ""
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "project" : {
+        "name" : "AWS CMS",
+        "acronym" : "CMS",
+        "slogan" : "AWS S3 CMS...",
+        "icon" : "/img/logo-small.png",
+        "company" : "Geekatron"
+    },
+    "libs" : [
+        {
+            "src" : "http://code.jquery.com/jquery.js"
+        },
+        {
+            "src" : "http://code.jquery.com/ui/1.10.3/jquery-ui.js"
+        },
+        {
+            "src" : "/js/lib/bootstrap/v3.0.3/bootstrap.min.js"
+        },
+        {
+            "src" : "/js/lib/mustache/mustache.js"
+        },
+        {
+            "src" : "/js/lib/modernizr.js"
+        },
+        {
+            "src" : "/js/lib/underscore/underscore-min_1.4.4.js"
+        },
+        {
+            "src" : "http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"
+        },
+        {
+            "src" : "/js/lib/LDRLY-Leaderboard.js"
+        }
+    ],
+    "style" : [
+        {
+            "href" : "/style/glyphicons.css",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "http://www.ldrly.com/assets/css/bootstrap.css",
+            "rel" : "stylesheet",
+            "media" : "screen"
+        },
+        {
+            "href" : "http://www.ldrly.com/assets/css/style.css",
+            "rel" : "stylesheet",
+            "media" : "screen"
+        },
+        {
+            "href" : "/style/default.css",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "/style/halflings.css",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "/style/social.css",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "/style/default.css",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "/style/print_version.css",
+            "rel" : "stylesheet",
+            "media" : "print"
+        },
+        {
+            "href" : "http://fonts.googleapis.com/css?family=Roboto",
+            "rel" : "stylesheet"
+        },
+        {
+            "href" : "http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic",
+            "rel" : "stylesheet"
+        }
+    ],
+    "menu" :
+        [
+            {
+                "name" : "Home",
+                "url" : "/",
+                "icon" : "glyphicon glyphicon-home"
+            },
+            {
+                "name" : "Statistics",
+                "url" : "/statistics/index.html",
+                "icon" : "glyphicon glyphicon-tower",
+                "style" : ""
+            },
+            {
+                "name" : "Users",
+                "url" : "/users/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-user",
+                "style" : ""
+            },
+            {
+                "name" : "",
+                "url" : "/config/index.html",
+                "active" : "",
+                "icon" : "glyphicon glyphicon-wrench"
+            }
+        ]
+}

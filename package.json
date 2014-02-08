@@ -1,0 +1,42 @@
+{
+    "name": "AWS-CMS",
+    "version": "0.0.1",
+    "author" : "Adam C Nowak <geekatron@gmail.com>",
+    "description" : "AWS Content Management System",
+    "private" : true,
+    "scripts" : {
+
+    },
+    "keywords" : [
+        "AWSY",
+        "AWS S3",
+        "CMS",
+        "AWS CMS",
+        "AWS CMS S3"
+    ],
+    "dependencies" : {
+        "express" : "3.4.x",
+        "mongodb" : ">=1.3.19",
+        "mongoose" : ">=3.8.0",
+        "mustache": "0.7.x",
+        "newrelic" : ">= 1.3.0",
+        "random-number" : "0.0.4",
+        "string": "1.0.0",
+        "underscore": "1.3.x"
+    },
+    "devDependencies" : {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.4.3",
+        "grunt-contrib-nodeunit": "~0.1.2",
+        "grunt-contrib-concat": "~0.2.0",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-watch": "~0.3.1",
+        "grunt-contrib-qunit": "~0.2.1",
+        "mocha": "1.6.x"
+    },
+    "engines" : {
+        "node": "0.10.x",
+        "npm":  "1.2.x"
+    }
+}

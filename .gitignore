@@ -1,0 +1,31 @@
+#############################################################################################################
+# User Specific WebStorm IDE Files                                                                          #
+# .idea directory based format                                                                              #
+# Share all the files under .idea directory in the project root except the workspace.xml                    #
+# and tasks.xml files which store user specific settings, also share all the .iml module files.             #
+#############################################################################################################
+.idea/workspace.xml
+.idea/tasks.xml
+.svn
+
+######################
+# NPM Modules        #
+######################
+node_modules
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+######################
+#  Lib Build folder  #
+######################
+app/build
