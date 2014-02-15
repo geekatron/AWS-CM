@@ -37,8 +37,8 @@
                 "icon" : "glyphicon glyphicon-wrench"
             }
         ],
-    "title" : "AWS CMS",
-    "acronym" : "CMS",
+    "title" : "AWS Digital Asset Management",
+    "acronym" : "DAM",
     "description" : [
         "Here you will be able to view media stored in AWS S3 Buckets."
     ]

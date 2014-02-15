@@ -27,10 +27,7 @@ function Template() {
         data_page_loc = {
             "error" : "views/data/error.json",
             //Customizable Template Sections
-            "home" : "views/data/home.json",
-            "stats" : "views/data/stats.json",
-            "users" : "views/data/users.json",
-            "github" : "views/data/github.json"
+            "home" : "views/data/home.json"
         };
 
     self.data = {};
@@ -64,41 +61,11 @@ function Template() {
             }
         }//END handleGlobalDataResponse
 
-        function handleStatsDataResponse(err, data) {
-            if (!_.isUndefined(err) && !_.isNull(err)) {
-                //Handle error
-                console.log("ERR: Couldn't find stats data!");
-            } else {
-                self.data.ipp = JSON.parse(data);
-            }
-        }//END handleInterviewPrepProfileDataResponse
-
-        function handleUsersDataResponse(err, data) {
-            if (!_.isUndefined(err) && !_.isNull(err)) {
-                //Handle error
-                console.log("ERR: Couldn't find users data!");
-            } else {
-                self.data.admin = JSON.parse(data);
-            }
-        }//END handleAdminDataResponse
-
-        function handleGitHubsDataResponse(err, data) {
-            if (!_.isUndefined(err) && !_.isNull(err)) {
-                //Handle error
-                console.log("ERR: Couldn't find users data!");
-            } else {
-                self.data.github = JSON.parse(data);
-            }
-        }//END handleGitHubsDataResponse
-
         //Load the Global Data
         fs.readFile(data_global_loc, "utf8", handleGlobalDataResponse);
         //Load the Page specific Data
         fs.readFile(data_page_loc.error, "utf8", handleErrorDataResponse);
         fs.readFile(data_page_loc.home, "utf8", handleHomeDataResponse);
-        fs.readFile(data_page_loc.stats, "utf8", handleStatsDataResponse);
-        fs.readFile(data_page_loc.users, "utf8", handleUsersDataResponse);
-        fs.readFile(data_page_loc.github, "utf8", handleGitHubsDataResponse);
     })()
 }
 

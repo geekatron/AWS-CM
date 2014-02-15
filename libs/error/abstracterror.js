@@ -29,6 +29,14 @@ util.inherits(PromotionNotFoundError, AbstractError);
 PromotionNotFoundError.prototype.httpCode = 404;
 PromotionNotFoundError.prototype.name = 'Promotion Not Found Error';
 
+var ContentNotFoundError = function (message) {
+    ContentNotFoundError.super_.call(this, message, this.constructor);
+};
+
+util.inherits(ContentNotFoundError, AbstractError);
+ContentNotFoundError.prototype.httpCode = 404;
+ContentNotFoundError.prototype.name = 'Content library Not Found Error';
+
 
 var DatabaseNotAvailableError = function (message) {
     DatabaseNotAvailableError.super_.call(this, message, this.constructor);
@@ -59,6 +67,7 @@ BadContentTypeError.prototype.name = 'Bad Content Type Error';
 
 module.exports = {
     NotFound: PromotionNotFoundError,
+    ContentNotFound: ContentNotFoundError,
     DataBaseNotAvailable: DatabaseNotAvailableError,
     Validation: ValidationError,
     BadContentType: BadContentTypeError

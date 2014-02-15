@@ -29,7 +29,7 @@ var app = module.exports = express(),
     processport = process.env.PORT || 5050;
 
 //Global variable for the Mongo connection pool
-global.db = mongoose.createConnection(process.env.MONGOHQ_URL);
+//global.db = mongoose.createConnection(process.env.MONGOHQ_URL);
 
 global.debug = (process.env.DEBUG_MODE === 'true') || false;
 
@@ -42,7 +42,7 @@ require('./routes/routes_cors')(app);
 //Route for HTML content
 //require('./routes/routes_html')(app);
 //Route for the service
-//require('./routes/routes_contentmanagement')(app);
+require('./routes/routes_contentmanagement')(app);
 //Error routing - Keep last!
 //require('./routes/routes_errors')(app);
 

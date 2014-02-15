@@ -1,0 +1,143 @@
+/*
+ * Created with WebStorm.
+ * Date: 1/27/2014
+ * Time: 11:47 PM
+ * @author Adam C. Nowak
+ * @description
+ *
+ */
+
+body {
+    /*border: 1px solid black;*/
+    /*background-color: #048ec4;*/
+
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*color: #616161;*/
+
+    /*border: 1px solid pink;*/
+    margin-top: 10px;
+}
+
+/*********************************
+*       Style for the ERROR     *
+**********************************/
+
+#error_page {
+    background-color: #0000ff;
+    color: #ffffff;
+
+    /*padding-top: 25%;*/
+
+    padding-top: 60px;
+    padding-left: 25px;
+    font-family: "Lucida Console";
+}
+
+#error_page .err-title {
+    display: inline-block;
+
+    background-color: #808080;
+    color: #000000;
+}
+
+#error_page .err-msg  {
+    padding-top: 20px;
+}
+
+#error_page .err-img  {
+    height: 50%;
+}
+
+#error_page .err-img-right  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#error_page .err-bullet  {
+    float: left;
+}
+
+/*********************************
+*       Style for the HEADER     *
+**********************************/
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+
+    padding-right: 10px;
+}
+
+.ldrly-logo img {
+    width: 80px;
+    height: auto;
+}
+
+/*********************************
+*      Style for the CONTENT     *
+**********************************/
+.content {
+    /*color: #616161;*/
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#goodserver h2 {
+    color: green;
+}
+
+#badserver h2 {
+    color: red;
+}
+
+.terminal {
+    min-height: 250px;
+    max-height: 250px;
+    background-color: black;
+    opacity: 0.7;
+    line-height: 12px;
+
+    overflow: auto;
+}
+
+.terminal p {
+    font-family: Courier, "Courier New", san-serif;
+
+    padding-left: 5px;
+}
+
+#goodterminal {
+    color: greenyellow;
+}
+
+#badterminal {
+    color: red;
+}
+
+/*********************************
+*       Style for the FOOTER     *
+**********************************/
+
+.footer {
+    /*background-color: #808080;*/
+    /*color: #ffffff;*/
+    /*color: #add8e6;*/
+    /*margin-top: 100px;*/
+    /*border: 1px solid green;*/
+    max-height: 25px;
+    min-height: 25px;
+    background-color: #000000;
+    margin-top: 15px;
+}
+
+.footer p {
+    /*background-color: #ffffff;*/
+    color: white;
+}
+
+.footer a {
+    /*color: white;*/
+    text-decoration: underline;
+}

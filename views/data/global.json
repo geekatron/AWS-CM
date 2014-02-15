@@ -1,9 +1,9 @@
 {
     "project" : {
-        "name" : "AWS CMS",
-        "acronym" : "CMS",
-        "slogan" : "AWS S3 CMS...",
-        "icon" : "/img/logo-small.png",
+        "name" : "AWS Digital Asset Management",
+        "acronym" : "DAM",
+        "slogan" : "AWS S3 DAM...",
+        "icon" : "/img/small_logo.jpg",
         "company" : "Geekatron"
     },
     "libs" : [
@@ -29,7 +29,7 @@
             "src" : "http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"
         },
         {
-            "src" : "/js/lib/LDRLY-Leaderboard.js"
+            "src" : "/js/lib/AWS-DAM.js"
         }
     ],
     "style" : [

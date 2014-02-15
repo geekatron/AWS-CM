@@ -1,0 +1,56 @@
+/*
+ * Created with JetBrains WebStorm.
+ * Date: 2013-03-04
+ * Time: 6:01 PM
+ * @author Adam C. Nowak
+ * @description
+ * 
+ */
+
+/* Stylesheet for the print out version */
+
+#video {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#print-btn {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#save-btn {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#insight-btn {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+div.span12 img {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#status {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.ipl-heading {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#print-title {
+
+}

@@ -37,20 +37,18 @@ module.exports = function (grunt) {
                     'views/template/layouts/template_onecolumn.js',
                     'views/template/layouts/template_twocolumn.js',
                     'views/template/home/template_home.js',
-                    'views/template/statistics/template_statistics.js',
-                    'views/template/github/template_github.js',
+                    'views/template/content/management/template_contentmanagement.js',
 
                     //Add the rest of the template JS files here for concatenation
 
                     /* Integration related components - e.g. Calling DB Functions*/
                     'public/js/app/src/integration/integration.js',
-                    'public/js/app/src/integration/leaderboard/statistic_rest.js',
-                    'public/js/app/src/integration/leaderboard/leaderboard_rest.js',
+                    'public/js/app/src/integration/content/management/contentmanagement_rest.js',
+
 
                     /* View Models */
                     'public/js/app/src/viewmodel/vm_helper.js',
-                    'public/js/app/src/viewmodel/home/vm_home.js',
-                    'public/js/app/src/viewmodel/statistics/vm_statistics.js',
+                    'public/js/app/src/viewmodel/content/management/vm_cm.js',
 
                 ],
                 dest: 'public/js/app/build/<%= pkg.name %>.js'
@@ -64,8 +62,7 @@ module.exports = function (grunt) {
                     'views/template/layouts/template_onecolumn.js',
                     'views/template/layouts/template_twocolumn.js',
                     'views/template/home/template_home.js',
-                    'views/template/statistics/template_statistics.js',
-                    'views/template/github/template_github.js'
+                    'views/template/content/management/template_contentmanagement.js',
                     //Add the more templates
                 ],
                 dest: 'views/template.js'

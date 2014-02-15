@@ -1,9 +1,9 @@
 {
     "project" : {
-        "name" : "AWS CMS",
-        "acronym" : "CMS",
-        "slogan" : "AWS S3 CMS...",
-        "icon" : "/img/logo-small.png",
+        "name" : "AWS DAM",
+        "acronym" : "DAM",
+        "slogan" : "AWS S3 DAM...",
+        "icon" : "/img/small_logo.jpg",
         "company" : "Geekatron"
     },
     "libs" : [
